@@ -61,7 +61,11 @@ body{
 }
 
 .add-btn:hover{
-  background: rgba(0, 0, 0, 0.1);
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.add-btn:active{
+  background: rgba(255, 255, 255, 0.5);
 }
 
 .list-container{
@@ -80,15 +84,17 @@ body{
   font-size: 1rem;
   padding-left: 0.5rem;
   border-radius: 20px;
+  background: #CDC1FF;
   border: 1px solid rgba(155, 155, 155, 0.6);
   margin: 1.25rem;
   list-style: none;
 }
 
 .list-container .list-item .delete-btn{
-  width: 80px;
+  width: 50px;
   height: 100%;
   border-radius: 20px;
+  background: rgba(255, 255, 255, 0.6);
   border: 1px solid rgba(200, 200, 200, 0.6);
 }
 
